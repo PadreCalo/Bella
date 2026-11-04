@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Naomy ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:
+linear-gradient(135deg,#14071d,#2a1038,#4b0f37);
+color:white;
+overflow-x:hidden;
+}
+
+/* Fondo animado */
+
+.stars{
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+background:url("https://www.transparenttextures.com/patterns/stardust.png");
+opacity:.4;
+animation:move 100s linear infinite;
+z-index:-2;
+}
+
+@keyframes move{
+from{
+transform:translateY(0);
+}
+to{
+transform:translateY(-1000px);
+}
+}
+
+/* Corazones */
+
+.heart{
+position:fixed;
+bottom:-20px;
+color:rgba(255,255,255,.20);
+animation:float 20s infinite linear;
+z-index:-1;
+}
+
+@keyframes float{
+from{
+transform:translateY(0);
+}
+to{
+transform:translateY(-120vh);
+}
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+padding:50px;
+border-radius:30px;
+box-shadow:0 0 40px rgba(255,255,255,.15);
+max-width:900px;
+}
+
+.hero h1{
+font-family:'Cormorant Garamond',serif;
+font-size:5rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+opacity:.9;
+}
+
+section{
+padding:100px 10%;
+}
+
+.title{
+font-size:3rem;
+font-family:'Cormorant Garamond',serif;
+margin-bottom:30px;
+color:#ffd6f5;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+padding:40px;
+border-radius:25px;
+backdrop-filter:blur(12px);
+max-width:1000px;
+margin:auto;
+line-height:2;
+font-size:1.1rem;
+}
+
+.quote{
+text-align:center;
+font-size:2rem;
+font-family:'Cormorant Garamond',serif;
+padding:80px 20px;
+color:#ffd4ef;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.photo{
+height:300px;
+border-radius:20px;
+overflow:hidden;
+background:#ffffff15;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:1.1rem;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.counter{
+text-align:center;
+font-size:2rem;
+}
+
+.counter span{
+font-size:4rem;
+color:#ff9de1;
+font-weight:bold;
+display:block;
+margin:20px 0;
+}
+
+footer{
+text-align:center;
+padding:80px 20px;
+opacity:.8;
+}
+
+.fade{
+opacity:0;
+transform:translateY(50px);
+transition:1s;
+}
+
+.fade.show{
+opacity:1;
+transform:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="heart" style="left:10%;font-size:40px;">❤️</div>
+<div class="heart" style="left:20%;font-size:25px;animation-delay:3s;">❤️</div>
+<div class="heart" style="left:45%;font-size:35px;animation-delay:5s;">❤️</div>
+<div class="heart" style="left:70%;font-size:30px;animation-delay:8s;">❤️</div>
+<div class="heart" style="left:90%;font-size:50px;animation-delay:2s;">❤️</div>
+
+<section class="hero">
+
+<div class="glass">
+
+<h1>Naomy ❤️</h1>
+
+<p>
+La mujer que convirtió mis días normales
+en recuerdos extraordinarios.
+</p>
+
+</div>
+
+</section>
+
+<section class="fade">
+
+<h2 class="title">Bienvenida...</h2>
+
+<div class="card">
+
+<p>
+Este pequeño proyecto no habla solamente de una mujer hermosa.
+Habla de la mujer que cambió mi manera de ver el mundo.
+</p>
+
+<br>
+
+<p>
+Porque es inevitable no poder pensar en ti, en tu ser, cuerpo y corazón. 
+Cuando te vi, supe qué eras y eres una persona con belleza pura; 
+una mujer perfecta para mí, vi al mundo sucio, antipático 
+porque no hay nadie como tú, desde que te vi, todo se me hizo feo,
+y no solo en personas, sino que tu ves el mundo y la vida distinto,
+siempre viendo lo justo, lo mejor, y lo más dulce, práctico, dejé de medirme
+en salir a comer, en pasear, en muchas cosas, porque me hiciste conocer y aprender
+que la vida hay que disfutarla, hay que vivirla y ser feliz, esrar tranquilos,
+cuando yo vivía en un mundo donde para sentirme bien, tenia que ver felices a otros,
+pero no es así. 
+
+</p>
+<br>
+<p>
+    Gracias por hacerme disfrutar la vida y el momento,
+    por eso siempre quiero verte feliz, contenta y orgullosa de la persona
+    que tienes a lado, porque no quiero verte mal, triste, porque no te lo mereces
+    quiero y anhelo hacerte vivir que cada momento sea especial para ti, tan especial
+    como lo eres tú en mi vida, y en el mundo exterior. 
+</p>    
+
+</div>
+
+</section>
+
+<div class="quote fade">
+
+Podrán haber personas simpáticas, atractivas, quizá bonitas, 
+pero nunca una belleza como la tuya, mi niña hermosa
+
+</div>
+
+<section class="fade">
+
+<h2 class="title">Tu Cabello</h2>
+
+<div class="card">
+
+<p>Tu cabello es como ver un océano dorado</p>
+
+<p>Ondulado, liso, extenso y denso como el mar</p>
+
+<p>Porque ver lo natural, simétrico y parejo me da tranquilidad</p>
+
+<p>No había cabello ni peinado, que me haya enamorado</p>
+
+</div>
+
+</section>
+
+<section class="fade">
+
+<h2 class="title">Tu Sonrisa</h2>
+
+<div class="card">
+
+<p>Tu sonrisa tiene el extraño poder de mejorar incluso los días más complicados
+
+Es esa sonrisa la que ilumina mis malos momentos, recuerdos y mi vida
+
+La que me recuerda por qué sigo luchando y no decaigo
+
+La que convierte cualquier lugar en mi lugar favorito
+
+</div>
+
+</section>
+
+<section class="fade">
+
+<h2 class="title">Lo Que Más Amo de Ti</h2>
+
+<div class="card">
+
+Qué puedo decir aquí? si todo amo de ti.
+Desde tu sensibilidad, hasta tu forma más dura.
+porque tienes una templanza, equilibrio ...
+se me hace deducirte, porque como un Dios, no tienes descripción alguna.
+porque simplemnte, no hay alguien en el mundo que siquiera se asemeje a ti.
+
+</div>
+
+</section>
+
+<section class="fade">
+
+<h2 class="title">Tu cuerpo</h2>
+
+<div class="card">
+
+Tu cuerpo es lo más sagrado, exclusivo, privado que puede haber en el mundo, y asi mismo
+lo mejor de él, es lo que causa, la reacción al sentirlo, y sentirlo con mis 5 sentidos.
+verlo, tocarlo, halagarlo y percibir su aroma es como sentir el cielo en vida
+con tus cruvas, suavidad en su máximo esplendor, es simplemente hermoso
+
+</div>
+
+</section>
+
+<section class="fade">
+
+<h2 class="title">Tu corazón</h2>
+
+<div class="card">
+
+Ese corazoncito es más grande que el mundo, y tengo el más grande pivilegio de estar en él,
+y nuestra familia, Chiquita, Leo, tus padres y Sheccid que estamos, yo de metido, pero estoy en un cuarto aparte.
+tu forma de amar, dar atención y cariño es una mezcla de palabras de tu padre, y acciones de tu madre, que créeme que es lo mejor que puedo sentir
+es lo mejor porque das amor, recibo amor, y es la primera vez que lo siento. Quiero sentirlo y sentirte toda mi vida.
+
+
+</div>
+
+</section>
+
+<section class="fade">
+
+<h2 class="title">Tu presencia en mi vida</h2>
+
+<div class="card">
+
+Tu presencia en mi vida es incondicional, en todo, alegria, tranquilidad, calma
+aprecio, amor, paciencia, es tener a un angel de la guarda conmigo, 
+eres mi razón de vivir, de levantarme y no rendirme, lo que causas en mí, nunca lo he sentido en mi vida
+cambias y camiast mi vida en todo sentido. No quiero que t vayas nunca.
+No quiero perderte, me aterra no verte, no saber de ti, me aterra pensar que no estarás conmigo.
+No sé ué haría con mi vida, porque mi vida eres tú.
+
+</div>
+
+</section>
+
+<section class="fade">
+
+<h2 class="title">Tus Fotitos</h2>
+
+<div class="gallery">
+
+<div class="photo"><img src="foto1.jpeg"></div>
+<div class="photo"><img src="foto2.jpeg"></div>
+<div class="photo"><img src="foto3.jpeg"></div>
+<div class="photo"><img src="foto4.jpeg"></div>
+<div class="photo"><img src="foto5.jpeg"></div>
+<div class="photo"><img src="foto6.jpeg"></div>
+<div class="photo"><img src="foto7.jpeg"></div>
+<div class="photo"><img src="foto8.jpeg"></div>
+</div>
+
+</section>
+
+<section class="fade">
+
+<div class="counter">
+
+He pensado en ti aproximadamente...
+
+<span id="loveCounter">0</span>
+
+veces mientras hacía esta página ❤️
+
+</div>
+
+</section>
+
+<footer>
+
+Para la mujer más hermosa de mi universo.
+
+❤️ Naomy ❤️
+
+<br><br>
+
+Creado con amor por Carlos.
+
+</footer>
+
+<script>
+
+const observer = new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+});
+
+document.querySelectorAll(".fade").forEach(el=>{
+
+observer.observe(el);
+
+});
+
+let number = 0;
+
+const counter = document.getElementById("loveCounter");
+
+setInterval(()=>{
+
+number += Math.floor(Math.random()*5)+1;
+
+counter.innerHTML = number.toLocaleString();
+
+},100);
+
+</script>
+
+</body>
+</html>
